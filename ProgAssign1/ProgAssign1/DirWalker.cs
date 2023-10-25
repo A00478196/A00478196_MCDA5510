@@ -15,17 +15,13 @@ namespace ProgAssign1
         {
 
             // path to read the sample data
-            Console.Write("Enter the full path for directory of sample data. For example: C://Assingment1/Sample data// :");
-            string path = Console.ReadLine();
-            //string path = "D:\\MCDA\\5510\\A00478196_MCDA5510\\ProgAssign1\\ProgAssign1\\Sample Data\\";
+            //Console.Write("Enter the full path for directory of sample data. For example: C://Assingment1/Sample data// :");
+            //string path = Console.ReadLine();
+            string path = "D:\\Sample_Data\\";
 
 
             // try catch block to catch any file/directory related exceptions
-            try
-            {
-                
-
-                    if (Directory.Exists(path))
+                  if (Directory.Exists(path))
                     {
                         //further process the directoy is nested directory is present
                         ProcessDirectory(path, files);
@@ -36,30 +32,11 @@ namespace ProgAssign1
                         files.Add(path);
                     }
 
-              
-
-            }
-            catch (FileNotFoundException e)
-            {
-
-                Log.Information("A File exception occurred: " + e.Message);
-
-            }
-            catch(IndexOutOfRangeException e)
-            {
-                Log.Information("A out of range exception occured: " + e.Message);
-            }
-            catch(UnauthorizedAccessException e)
-            {
-                Log.Information("Unauthorized exception: " + e.Message);
-            }
-
             return files;
         }
         public static void  ProcessDirectory(string targetDirectory, List<string> files)
         {
-            try
-            {
+           
                 // get all the files with .csv extensions
                 string[] fileEntries = Directory.GetFiles(targetDirectory, "*.csv");
 
@@ -78,33 +55,7 @@ namespace ProgAssign1
                     ProcessDirectory(subdirectory, files);
 
                 }
-            }catch(DirectoryNotFoundException e)
-            {
-                Log.Information("A Directory exception occurred: " + e.Message);
-
-            }
-            catch (DriveNotFoundException e)
-            {
-                Log.Information("A Drive exception occurred: " + e.Message);
-
-            }
-            catch (IOException e)
-            {
-                Log.Information("An IOE occurred: " + e.Message);
-            }
-            catch (UnauthorizedAccessException e)
-            {
-                Log.Information("Unauthorized exception occurred: " + e.Message);
-            }
-            catch (ArgumentNullException e)
-            {
-                Log.Information("ArgumentNullException occurred: " + e.Message);
-            }
-            catch (SecurityException e)
-            {
-                Log.Information("ArgumentNullException occurred: " + e.Message);
-            }
-
+            
 
         }
     }
