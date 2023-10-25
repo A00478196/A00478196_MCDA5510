@@ -27,8 +27,7 @@ namespace ProgAssign1
         {
             CSVHandler finalData = new CSVHandler();
            
-            try
-            {
+           
 
                 // configuration for csvHelper
                 var csvConfig = new CsvConfiguration(CultureInfo.InvariantCulture);
@@ -114,7 +113,7 @@ namespace ProgAssign1
 
                         }
 
-                    }
+                    
                
                 timer.Stop();
                 TimeSpan elapsed = timer.Elapsed;
@@ -124,32 +123,8 @@ namespace ProgAssign1
                 Log.Information("Total Time taken: " + elapsed.Seconds + " s");
                
             }
-            catch (IOException e)
-            {
-                Log.Information("An IOE occurred: " + e.Message);
-            }
-            catch (CsvHelperException e)
-            {
-                Log.Information("A CsvHelperException occurred: " + e.Message);
-
-            }
-            catch (IndexOutOfRangeException e)
-            {
-                Log.Information("A out of range exception occured: " + e.Message);
-            }
-            catch (UnauthorizedAccessException e)
-            {
-                Log.Information("Unauthorized exception occurred: " + e.Message);
-            }
-            catch (ArgumentNullException e)
-            {
-                Log.Information("ArgumentNullException occurred: " + e.Message);
-            }
-            catch (SecurityException e)
-            {
-                Log.Information("ArgumentNullException occurred: " + e.Message);
-            }
-            
+           
+           
             return files;
 
         }
