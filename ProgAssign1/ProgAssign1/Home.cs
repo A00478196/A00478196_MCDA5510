@@ -14,9 +14,8 @@ namespace ProgAssign1
             // Initial configuration to write log to a log.txt file
             
                 Log.Logger = new LoggerConfiguration()
-            .WriteTo.File("D:\\MCDA\\5510\\A00478196_MCDA5510\\ProgAssign1\\ProgAssign1\\logs\\log.txt") // Specify the file path here
+            .WriteTo.File("..\\..\\..\\logs\\log.txt") // Specify the file path here
             .CreateLogger();
-
             
 
             Log.Information("---- The Program started ----");
