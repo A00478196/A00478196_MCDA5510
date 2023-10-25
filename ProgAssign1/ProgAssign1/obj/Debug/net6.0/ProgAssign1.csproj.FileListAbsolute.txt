@@ -1,0 +1,57 @@
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\ProgAssign1.exe
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\ProgAssign1.deps.json
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\ProgAssign1.runtimeconfig.json
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\ProgAssign1.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\ProgAssign1.pdb
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\CsvHelper.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\NLog.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.csproj.AssemblyReference.cache
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.GeneratedMSBuildEditorConfig.editorconfig
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.AssemblyInfoInputs.cache
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.AssemblyInfo.cs
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.csproj.CoreCompileInputs.cache
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.csproj.CopyComplete
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\obj\Debug\net6.0\refint\ProgAssign1.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.pdb
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.genruntimeconfig.cache
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ref\ProgAssign1.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\log.config
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Serilog.dll
+D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\ProgAssign1.exe
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\ProgAssign1.deps.json
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\ProgAssign1.runtimeconfig.json
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\ProgAssign1.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\ProgAssign1.pdb
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\CsvHelper.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\NLog.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Serilog.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.csproj.AssemblyReference.cache
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.GeneratedMSBuildEditorConfig.editorconfig
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.AssemblyInfoInputs.cache
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.AssemblyInfo.cs
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.csproj.CoreCompileInputs.cache
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.csproj.CopyComplete
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\obj\Debug\net6.0\refint\ProgAssign1.dll
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.pdb
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ProgAssign1.genruntimeconfig.cache
+D:\MCDA\5510\A00478196_MCDA5510\ProgAssign1\ProgAssign1\obj\Debug\net6.0\ref\ProgAssign1.dll

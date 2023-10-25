@@ -1,0 +1,12 @@
+2023-10-25 12:15:44.081 -03:00 [INF] ---- The Program started ----
+2023-10-25 12:15:44.089 -03:00 [INF] ---- Searching for directories... ----
+2023-10-25 12:15:44.125 -03:00 [INF] ----- Writing an output CSV with validated results... ----
+2023-10-25 12:15:44.204 -03:00 [INF] Invalid row on file CustomerData0.csv on line 3 written on 2017/11/10
+2023-10-25 12:15:44.204 -03:00 [INF] Invalid row on file CustomerData0.csv on line 7 written on 2017/11/10
+2023-10-25 12:15:44.204 -03:00 [INF] Invalid row on file CustomerData0.csv on line 11 written on 2017/11/10
+2023-10-25 12:15:44.204 -03:00 [INF] Invalid row on file CustomerData0.csv on line 16 written on 2017/11/10
+2023-10-25 12:15:44.204 -03:00 [INF] Invalid row on file CustomerData0.csv on line 18 written on 2017/11/10
+2023-10-25 12:15:44.205 -03:00 [INF] Invalid row on file CustomerData0.csv on line 27 written on 2017/11/10
+2023-10-25 12:15:44.205 -03:00 [INF] Invalid row on file CustomerData0.csv on line 28 written on 2017/11/10
+2023-10-25 12:15:44.208 -03:00 [INF] An IOE occurred: The process cannot access the file 'D:\MCDA\5510\ASP Assignment 1\ProgAssign1\ProgAssign1\Sample Data\2017\11\10\CustomerData1.csv' because it is being used by another process.
+2023-10-25 12:15:44.208 -03:00 [INF] ---- The program has ended... ----

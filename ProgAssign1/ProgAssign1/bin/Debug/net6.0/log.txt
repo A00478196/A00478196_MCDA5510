@@ -1,0 +1,1 @@
+2023-10-23 22:46:09.948 -03:00 [INF] This log message will be written to a file.
