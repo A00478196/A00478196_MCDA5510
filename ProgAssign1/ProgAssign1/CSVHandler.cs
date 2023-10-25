@@ -11,6 +11,7 @@ using Serilog;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 using System.Formats.Asn1;
+using System.Security;
 
 namespace ProgAssign1
 {
@@ -26,7 +27,6 @@ namespace ProgAssign1
         {
             CSVHandler finalData = new CSVHandler();
            
-
             try
             {
 
@@ -54,11 +54,12 @@ namespace ProgAssign1
                
 
                 // path to store the output after reading the files and validating them
-                string outputFileName = "D:\\MCDA\\5510\\A00478196_MCDA5510\\ProgAssign1\\ProgAssign1\\output\\Output.csv";
+               string outputFileName = "..\\..\\..\\output\\Output.csv";
+                //Console.Write("Enter the full path for directory of sample data. For example: C://Assingment1/Sample data// ");
+                //string outputFileName = Console.ReadLine();
 
-               
 
-                    using (StreamWriter writer = new StreamWriter(outputFileName, true))
+                using (StreamWriter writer = new StreamWriter(outputFileName, true))
                     using (CsvWriter csv = new CsvWriter(writer, csvConfig))
                     {
 
@@ -136,7 +137,19 @@ namespace ProgAssign1
             {
                 Log.Information("A out of range exception occured: " + e.Message);
             }
-
+            catch (UnauthorizedAccessException e)
+            {
+                Log.Information("Unauthorized exception occurred: " + e.Message);
+            }
+            catch (ArgumentNullException e)
+            {
+                Log.Information("ArgumentNullException occurred: " + e.Message);
+            }
+            catch (SecurityException e)
+            {
+                Log.Information("ArgumentNullException occurred: " + e.Message);
+            }
+            
             return files;
 
         }
