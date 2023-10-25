@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,7 +15,9 @@ namespace ProgAssign1
         {
 
             // path to read the sample data
-            string path = "D:\\MCDA\\5510\\A00478196_MCDA5510\\ProgAssign1\\ProgAssign1\\Sample Data\\";
+            Console.Write("Enter the full path for directory of sample data. For example: C://Assingment1/Sample data// :");
+            string path = Console.ReadLine();
+            //string path = "D:\\MCDA\\5510\\A00478196_MCDA5510\\ProgAssign1\\ProgAssign1\\Sample Data\\";
 
 
             // try catch block to catch any file/directory related exceptions
@@ -32,6 +35,7 @@ namespace ProgAssign1
                         //add the file to file list if a nested file is present
                         files.Add(path);
                     }
+
               
 
             }
@@ -44,6 +48,10 @@ namespace ProgAssign1
             catch(IndexOutOfRangeException e)
             {
                 Log.Information("A out of range exception occured: " + e.Message);
+            }
+            catch(UnauthorizedAccessException e)
+            {
+                Log.Information("Unauthorized exception: " + e.Message);
             }
 
             return files;
@@ -88,8 +96,16 @@ namespace ProgAssign1
             {
                 Log.Information("Unauthorized exception occurred: " + e.Message);
             }
-          
-            
+            catch (ArgumentNullException e)
+            {
+                Log.Information("ArgumentNullException occurred: " + e.Message);
+            }
+            catch (SecurityException e)
+            {
+                Log.Information("ArgumentNullException occurred: " + e.Message);
+            }
+
+
         }
     }
 }
