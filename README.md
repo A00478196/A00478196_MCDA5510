@@ -1,6 +1,9 @@
 # A00478196_MCDA5510
 
-The aim of this program is to loop through multiple csv files, validate them, and write the valid rows in a single file
+The aim of this program is to loop through multiple csv files, validate them, and write the valid rows in a single file.
+
+<b>The input path to read the directories containing the CSV files is D:\\Sample_Data\\ </b>
+
 It contains 3 classes.
 
 Home.cs contains the main function to run the program
